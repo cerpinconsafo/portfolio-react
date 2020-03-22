@@ -1,18 +1,19 @@
 {
   "main": {
+    "visitor": "Space Travelor",
     "name":"Patrick Skolsky",
-    "occupation":"Web Developer and Artist",
-    "description":"This is a test.  Test test test, just to make sure if it is a test.",
+    "occupation":"[web developer, artist, designer, musician, gamer, meme-er]",
+    "description":"Description here.",
     "image":"profilepic.png",
     "bio":"I am a junior full-stack developer, with strengths in ",
-    "contactmessage":"Please, Contact me .",
+    "contactmessage":"Please, Contact me using the form below.",
     "email": "pSkolsky74@gmail.com",
-    "phone": "available upon request",
+    "phone": "phone number available on request",
     "address":{
       "street":"",
-      "city":"",
+      "city":"new brunswick",
       "state":"NJ, USA",
-      "zip": "change"
+      "zip": "08850"
     },
     "website": "www.patrickskolskyart.com",
     "resumedownload":"https://github.com/cerpinconsafo",
@@ -41,26 +42,26 @@
         "school":"Rutgers University Coding Bootcamp",
         "degree":"Certificate in Web Development",
         "graduated":"February 2020",
-        "description":"Full Stack Web Development with a focus on MERN stack."
+        "description":"Full Stack Web Development with a focus on MERN stack. Add more"
       },
       {
         "school":"Mason Gross School of the Arts at Rutgers University",
         "degree":"Bachelors in Fine Art",
         "graduated":"May 2016",
-        "description":"Studio practice with concentrations in Painting and Printmaking."
+        "description":"Studio practice with concentrations in Painting and Printmaking.  Add more"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
+        "company":"Freelance",
+        "title":"title",
+        "years":"February 2020 - Present",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
+        "company":"Coby Graphics",
+        "title":"Lead Screen Printer",
+        "years":"March 2016 - August 2019",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
