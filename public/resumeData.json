@@ -4,9 +4,9 @@
     "occupation":"Web Developer and Artist",
     "description":"This is a test.  Test test test, just to make sure if it is a test.",
     "image":"profilepic.png",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I am a junior full-stack developer, with strengths in ",
     "contactmessage":"Please, Contact me .",
-    "email": "youremailhere@gmail.com",
+    "email": "pSkolsky74@gmail.com",
     "phone": "available upon request",
     "address":{
       "street":"",
@@ -18,56 +18,36 @@
     "resumedownload":"https://github.com/cerpinconsafo",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/pskolsky/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"http://instagram.com/pskolsky_art",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
         "url":"http://github.com/tbakerx",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Front End Web Developer with a BFA in Fine Art and a Certificate in Full Stack Web Development, both from Rutgers University.  Skilled in the MERN stack, as well as Adobe Suite and principles of art and design. Passionate about creating and delivering memorable and functional visual experiences in the world and on the web.",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Rutgers University Coding Bootcamp",
+        "degree":"Certificate in Web Development",
+        "graduated":"February 2020",
+        "description":"Full Stack Web Development with a focus on MERN stack."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Mason Gross School of the Arts at Rutgers University",
+        "degree":"Bachelors in Fine Art",
+        "graduated":"May 2016",
+        "description":"Studio practice with concentrations in Painting and Printmaking."
       }
     ],
     "work":[
@@ -86,28 +66,28 @@
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"65%"
+        "name":"Photoshop",
+        "level":"85%"
       },
       {
         "name":"Illustrator",
         "level":"65%"
       },
       {
-        "name":"ReactJs",
-        "level":"60%"
+        "name":"HTML5",
+        "level":"75%"
       },
       {
         "name":"CSS",
         "level":"80%"
       },
       {
-        "name":"HTML5",
+        "name":"React.js",
         "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"Git",
+        "level":"60%"
       },
       {
         "name":"MongoDB",
@@ -118,33 +98,27 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
+        "title":"Safe Flight",
+        "category":"Oone-stop platform for travelers looking to book a flight on an airline that is safe, secure and is not prone to malfunctions.",
+        "image":"safe-flight.jpg",
         "url":"https://github.com/cerpinconsafo"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
+        "title":"MeDo",
+        "category":"A media to-do list",
+        "image":"medo.jpg",
         "url":"https://github.com/cerpinconsafo"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
+        "title":"Art Gif Generator",
+        "category":"Webapp utilizing Giphy API to showcase 'Internet Art' styles",
+        "image":"art-gif-gen.jpg",
         "url":"https://github.com/cerpinconsafo"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"https://github.com/cerpinconsafo"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
+        "title":"SFC Delivery",
+        "category":"A SMS based convenience store delivery service",
+        "image":"sfc-delivery.jpg",
         "url":"https://github.com/cerpinconsafo"
       }
     ]
