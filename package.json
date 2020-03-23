@@ -2,6 +2,8 @@
   "name": "personalportfolio",
   "version": "0.1.1",
   "private": true,
+  "homepage": "http://cerpinconsafo.github.io/portfolio-react",
+  
   "dependencies": {
     "jquery": "^3.2.1",
     "react": "^16.2.0",
@@ -13,6 +15,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

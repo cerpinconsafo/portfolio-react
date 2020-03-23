@@ -88,7 +88,7 @@ class Contact extends Component {
 				   </div>
 
                <div className="widget widget_tweets">
-                  <h4 className="widget-title">Latest Tweets</h4>
+                  <h4 className="widget-title">I don't tweet, fix this</h4>
                   <ul id="twitter">
                      <li>
                         <span>
