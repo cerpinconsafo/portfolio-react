@@ -1,8 +1,8 @@
 /*
 =====================================================================
-*   Ceevee v1.0 Layout Stylesheet
+*   Ceevee v1.1 Layout Stylesheet
 *   url: styleshout.com
-*   03-18-2014
+*   03-22-2020
 =====================================================================
 
    TOC:
@@ -12,7 +12,7 @@
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
-   g. Testimonials Section
+   g. other Section
    h. Contact Section
    i. Footer
 
@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: rgb(17, 176, 123); }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -130,7 +130,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 11px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -140,7 +140,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: rgb(51, 51, 51); }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -165,21 +165,26 @@ ul#nav li a {
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
    display: inline-block;
-   padding: 8px 13px;
+   padding: 8px 12px;
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
    color: #fff;
 
-	-webkit-transition: color .2s ease-in-out;
-	-moz-transition: color .2s ease-in-out;
-	-o-transition: color .2s ease-in-out;
-	-ms-transition: color .2s ease-in-out;
-	transition: color .2s ease-in-out;
+	-webkit-transition: color .4s ease-in-out;
+	-moz-transition: color .4s ease-in-out;
+	-o-transition: color .4s ease-in-out;
+	-ms-transition: color .4s ease-in-out;
+	transition: color .4s ease-in-out;
 }
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: rgba(0, 240, 128, 0.911); }
+ul#nav li#works a { color: rgba(240, 0, 120, 0.911); -webkit-animation: glow 1s ease-in-out infinite alternate;
+   -moz-animation: glow 1s ease-in-out infinite alternate;
+   animation: glow 1s ease-in-out infinite alternate;
+   }
+
 
 
 /* ------------------------------------------------------------------ */
@@ -326,32 +331,32 @@ ul#nav li.current a { color: rgba(0, 240, 128, 0.911); }
 }
 /*
 .git {
-  	-moz-animation: git 2s ease;
-  	-webkit-animation: git 2s ease;
+  	-moz-animation: git 4s ease;
+  	-webkit-animation: git 4s ease;
 }
 .illustrator {
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: illustrator 4s ease;
+  	-webkit-animation: illustrator 4s ease;
 }
 .reactjs {
-  	-moz-animation: reactjs 2s ease;
-  	-webkit-animation: reactjs 2s ease;
+  	-moz-animation: reactjs 4s ease;
+  	-webkit-animation: reactjs 4s ease;
 }
 .css {
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: css 4s ease;
+  	-webkit-animation: css 4s ease;
 }
 .html5 {
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: html5 4s ease;
+  	-webkit-animation: html5 4s ease;
 }
 .vuejs {
-  	-moz-animation: vuejs 2s ease;
-  	-webkit-animation: vuejs 2s ease;
+  	-moz-animation: vuejs 4s ease;
+  	-webkit-animation: vuejs 4s ease;
 }
 .mongodb {
-  	-moz-animation: mongodb 2s ease;
-  	-webkit-animation: mongodb 2s ease;
+  	-moz-animation: mongodb 4s ease;
+  	-webkit-animation: mongodb 4s ease;
 }
 
 @-moz-keyframes git {
@@ -641,10 +646,10 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* g. other
 /* ------------------------------------------------------------------ */
 
-#testimonials {
+#other {
    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
@@ -655,19 +660,19 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
-#testimonials .text-container {
+#other .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#testimonials h1 {
+#other h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
+#other h1 span { display: none; }
+#other .header-col { padding-top: 9px; }
+#other .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
@@ -679,30 +684,30 @@ call-to-action .button {
 }
 
 /*	Blockquotes */
-#testimonials blockquote {
+#other blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
+#other blockquote:before { content: none; }
+#other blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 24px;
    line-height: 48px;
    color: #fff
 }
-#testimonials blockquote cite {
+#other blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
 }
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
+#other blockquote cite:before { content: "\2014 \0020"; }
+#other blockquote cite a,
+#other blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -722,7 +727,7 @@ call-to-action .button {
    margin: 0;
    padding: 0;
 }
-.flexslider .slides { zoom: 1; }
+.flexslider .slides { zoom: 2; }
 .flexslider .slides > li { position: relative; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
@@ -997,11 +1002,11 @@ footer .social-links li:first-child { margin-left: 0; }
 	height: 60px;
 	background-color: #525252;
 
-	-webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
 
    color: #fff;
    font-size: 21px;

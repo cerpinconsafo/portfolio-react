@@ -34,7 +34,7 @@ class App extends Component {
       }.bind(this),
       error: function(xhr, status, err){
         console.log(err);
-        alert(err);
+        alert(err, 'The data you were looking to retrieve has been lost somewhere in space/time.');
       }
     });
   }
@@ -48,10 +48,10 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
         <Portfolio data={this.state.resumeData.portfolio}/>
-        <Testimonials data={this.state.resumeData.testimonials}/>
+        <Resume data={this.state.resumeData.resume}/>
         <Contact data={this.state.resumeData.main}/>
+        <Testimonials data={this.state.resumeData.testimonials}/>
         <Footer data={this.state.resumeData.main}/>
       </div>
     );
