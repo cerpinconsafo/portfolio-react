@@ -35,19 +35,22 @@ class Header extends Component {
 
             <div className="row banner">
                <div className="banner-text">
-                  <h1 className="responsive-headline">Welcome, {visitor}.</h1>
+                  <h1 className="responsive-headline">
+                     <span className="headline-welcome animated lightSpeedIn slow">Welcome, </span>
+                     <span className="header-visitor">{visitor}.</span></h1>
                   <h2 className="responsive-headline">
                      <span className="headline-emph">id:</span>
-                     {name}</h2>
+                     <span className="header-info animated delay-1 flipInX"> {name}</span></h2>
                   <h2 className="responsive-headline">
                      <span className="headline-emph">href:</span>
-                     {city} </h2>
+                     <span className="header-info">{city}</span> </h2>
                   <h2 className="responsive-headline">
                      <span className="headline-emph">title:</span>
-                     {occupation}</h2>
+                     <span className="header-info">{occupation}</span>
+                  </h2>
                   <h3 className="responsive-headline">
                      <span className="headline-emph">alt:</span>
-                     {description}.</h3>
+                     <span className="header-info">{description}.</span></h3>
                   <hr />
                   <ul className="social">
                      {networks}
