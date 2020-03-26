@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import styled, { keyframes } from 'styled-components';
+import { lightSpeedIn } from 'react-animations';
+
+const LightIn = styled.div`animation: 1s ${keyframes`${lightSpeedIn}`} `;
 
 class Header extends Component {
    render() {
@@ -50,8 +54,8 @@ class Header extends Component {
                      <span className="header-info">{occupation}</span>
                   </h2>
                   <h3 className="responsive-headline">
-                     <span className="headline-emph">alt:</span>
-                     <span className="header-info">{description}.</span></h3>
+                  <LightIn><span className="headline-emph">alt:</span>
+                     <span className="header-info">{description}.</span></LightIn></h3>
                   <hr />
                   <ul className="social">
                      {networks}
