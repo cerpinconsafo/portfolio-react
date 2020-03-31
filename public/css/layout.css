@@ -185,10 +185,12 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: rgba(0, 240, 128, 0.911); }
-ul#nav li#works a { color: rgba(240, 0, 120, 0.911); -webkit-animation: glow 1s ease-in-out infinite alternate;
+ul#nav li.current a { color: rgba(0, 209, 112, 0.911); }
+ul#nav li a:hover { color: rgba(102, 230, 170, 0.911) }
+ ul#nav li#works a { color: rgba(240, 0, 120, 0.911);
+   /*-webkit-animation: glow 1s ease-in-out infinite alternate;
    -moz-animation: glow 1s ease-in-out infinite alternate;
-   animation: glow 1s ease-in-out infinite alternate;
+   animation: glow 1s ease-in-out infinite alternate; */
    }
 
 
