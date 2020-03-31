@@ -14,6 +14,8 @@ class About extends Component {
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
+      var artweb = this.props.data.art;
+      var musicweb = this.props.data.music;
       var resumeDownload = this.props.data.resumedownload;
     }
 
@@ -38,6 +40,9 @@ class About extends Component {
 						   <span>{phone}</span><br />
                      <span>{email}</span>
 					   </p>
+                  <h2>Other Work</h2>
+                     <span><a href={artweb}> // Art</a></span><br />
+                     <span><a href={musicweb}> // Music</a></span><br />
                </div>
                <div className="columns download">
                   <p>

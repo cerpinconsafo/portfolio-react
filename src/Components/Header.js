@@ -54,14 +54,14 @@ class Header extends Component {
                      <span className="header-info animated flipInX delay-2s"> {name}</span></h2>
                   <h2 className="responsive-headline">
                      <FlipInX><span className="headline-emph">href:</span></FlipInX>
-                     <span className="header-info animated delay-2s">{city}</span> </h2>
+                     <span className="header-info animated delay-2s"> {city}</span> </h2>
                   <h2 className="responsive-headline">
                      <span className="headline-emph">title:</span>
-                     <span className="header-info">{occupation}</span>
+                     <span className="header-info"> {occupation}</span>
                   </h2>
                   <h3 className="responsive-headline">
                   <LightIn><span className="headline-emph">alt:</span>
-                     <span className="header-info">{description}.</span></LightIn></h3>
+                     <span className="header-info"> {description}.</span></LightIn></h3>
                   <hr />
                   <ul className="social">
                      {networks}
