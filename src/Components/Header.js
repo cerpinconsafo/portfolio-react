@@ -5,7 +5,8 @@ import { lightSpeedIn, fadeIn, pulse, flipInX } from 'react-animations';
 const LightIn = styled.div`animation: 2s ${keyframes`${lightSpeedIn}`} `;
 const FadeIn = styled.div`animation: 4s ${keyframes`${fadeIn}`} `;
 const Pulse = styled.div`animation: 1s ${keyframes`${pulse}`}infinite`;
-const FlipInX = styled.div`animation: 3s ${keyframes`${flipInX}`}`;
+const FlipInX = styled.span
+`animation: 3s ${keyframes`${flipInX}`}`;
 
 class Header extends Component {
    render() {

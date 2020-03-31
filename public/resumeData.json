@@ -3,7 +3,7 @@
     "visitor": "Space Travelor",
     "name":"Patrick Skolsky",
     "occupation":"[web developer, artist, designer, musician]",
-    "description":"I have an idea to fix this",
+    "description":"Avid cyberspace traveler, immersed in the arts and internet.",
     "image":"profilepic.png",
     "bio":"I am a junior full-stack developer, with experience in the MERN stack.  My focus is primarily in front-end web design, bringing my art and design background to the web!",
     "contactmessage":"Please, Contact me using the form below.",
@@ -11,7 +11,7 @@
     "phone": "phone number available on request",
     "address":{
       "street":"",
-      "city":"new brunswick",
+      "city":"New Brunswick",
       "state":"NJ, USA",
       "zip": "08850"
     },
@@ -56,51 +56,74 @@
         "company":"Freelance",
         "title":"title",
         "years":"February 2020 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Having recently finished my Full Stack WedDev Certificate, I have been further developing my skills with personal projects and freelance work."
       },
       {
         "company":"Coby Graphics",
         "title":"Lead Screen Printer",
         "years":"March 2016 - August 2019",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Operator of Manual/Automatic screen printing presses in garnment/apparel decoration. I ran the warehouse and production on my own, with direction and oversight of the business owners from a nearby location."
       }
     ],
     "skills":[
       {
         "name":"Photoshop",
-        "level":"85%"
+        "level":"85%",
+        "logo": ""
       },
       {
         "name":"Illustrator",
-        "level":"65%"
+        "level":"65%",
+        "logo": ""
       },
       {
         "name":"HTML5",
-        "level":"75%"
+        "level":"75%",
+        "logo": ""
       },
       {
         "name":"CSS",
-        "level":"80%"
+        "level":"80%",
+        "logo": ""
       },
       {
         "name":"React.js",
-        "level":"80%"
+        "level":"80%",
+        "logo": ""
       },
       {
         "name":"Git",
-        "level":"60%"
+        "level":"60%",
+        "logo": ""
       },
       {
         "name":"MongoDB",
-        "level":"65%"
+        "level":"65%",
+        "logo": ""
+      }, 
+      {
+        "name": "MySQL",
+        "level": "65%",
+        "logo":""
       }
+    ,
+    {
+      "name": "Node.js",
+      "level": "65%",
+      "logo":""
+    },
+    {
+      "name": "Express",
+      "level": "65%",
+      "logo":""
+    }
     ]
   },
   "portfolio":{
     "projects": [
       {
         "title":"Safe Flight",
-        "category":"Oone-stop platform for travelers looking to book a flight on an airline that is safe, secure and is not prone to malfunctions.",
+        "category":"One-stop platform for travelers looking to book a flight on an airline that is safe, secure and is not prone to malfunctions.",
         "image":"safe-flight.jpg",
         "url":"https://github.com/cerpinconsafo"
       },
