@@ -3,10 +3,10 @@ import styled, { keyframes } from 'styled-components';
 import { lightSpeedIn, fadeIn, pulse, flipInX } from 'react-animations';
 
 const LightIn = styled.div`animation: 1s ${keyframes`${lightSpeedIn}`} `;
-const FadeIn = styled.div`animation: 2s ${keyframes`${fadeIn}`} `;
+const FadeIn = styled.div`animation: 3s ${keyframes`${fadeIn}`} `;
 const Pulse = styled.div`animation: 1s ${keyframes`${pulse}`}infinite`;
 const FlipInX = styled.span
-`animation: 3s ${keyframes`${flipInX}`}`;
+   `animation: 4s ${keyframes`${flipInX}`}`;
 
 class Header extends Component {
    render() {
@@ -35,7 +35,7 @@ class Header extends Component {
                   <li className="current"><a className="smoothscroll" href="#home">Landing</a></li>
                   <li><a className="smoothscroll" href="#about">Info</a></li>
                   <li id="works"><a className="smoothscroll" href="#portfolio">
-                  <Pulse><span> Works</span></Pulse></a></li>
+                     <Pulse><span> Works</span></Pulse></a></li>
                   <li><a className="smoothscroll" href="#resume">Resume</a></li>
                   <li><a className="smoothscroll" href="#contact">Contact</a></li>
                   <li><a className="smoothscroll" href="#other">Other</a></li>
@@ -46,22 +46,22 @@ class Header extends Component {
             {/*The goal here is so get animations timed and in sync.  The greeting and nav bar with fade in slightly first, followed by cascading attributes (maybe off by like .2s each), and finally, all of my personal information sliding in to each line  */}
             <div className="row banner">
                <div className="banner-text">
-                  <h1 className="responsive-headline">
-                     <span className="headline-welcome animated lightSpeedIn fast">Welcome, </span>
-                     <span className="header-visitor animated lightSpeedIn delay-1s slower">{visitor}.</span></h1>
+                  <FadeIn><h1 className="responsive-headline">
+                     <span className="headline-welcome">Welcome, </span>< br />
+                     <span className="header-visitor">{visitor}.</span></h1></FadeIn>
                   <h2 className="responsive-headline">
-                     <span className="headline-emph">id:</span>
+                     <FlipInX><span className="headline-emph">id:</span></FlipInX>
                      <span className="header-info animated flipInX delay-2s"> {name}</span></h2>
                   <h2 className="responsive-headline">
                      <FlipInX><span className="headline-emph">href:</span></FlipInX>
-                     <span className="header-info animated delay-2s"> {city}</span> </h2>
+                     <span className="header-info animated flipInX delay-3s"> {city}</span> </h2>
                   <h2 className="responsive-headline">
-                     <span className="headline-emph">title:</span>
-                     <span className="header-info"> {occupation}</span>
+                     <FlipInX><span className="headline-emph">title:</span></FlipInX>
+                     <span className="header-info animated flipInX delay-4s"> {occupation}</span>
                   </h2>
                   <h3 className="responsive-headline">
-                  <LightIn><span className="headline-emph">alt:</span>
-                     <span className="header-info"> {description}.</span></LightIn></h3>
+                  <FlipInX><span className="headline-emph">alt:</span></FlipInX>
+                     <span className="header-info animated flipInX delay-5s"> {description}.</span></h3>
                   <hr />
                   <ul className="social">
                      {networks}
