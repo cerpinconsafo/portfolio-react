@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components';
-import { lightSpeedIn, fadeIn, pulse, flipInX } from 'react-animations';
+import { lightSpeedIn, fadeIn, fadeInRight, pulse, flipInX } from 'react-animations';
 
 const LightIn = styled.div`animation: 1s ${keyframes`${lightSpeedIn}`} `;
+const FadeInRight = styled.span`animations: 1s ${keyframes`${fadeInRight}`}`;
 const FadeIn = styled.div`animation: 3s ${keyframes`${fadeIn}`} `;
-const Pulse = styled.div`animation: 1s ${keyframes`${pulse}`}infinite`;
+const Pulse = styled.span`animation: 3s ${keyframes`${pulse}`}`;
 const FlipInX = styled.span
    `animation: 4s ${keyframes`${flipInX}`}`;
 
@@ -31,15 +32,15 @@ class Header extends Component {
                <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
 
-               <FadeIn><ul id="nav" className="nav">
+               <FlipInX><ul id="nav" className="nav">
                   <li className="current"><a className="smoothscroll" href="#home">Landing</a></li>
                   <li><a className="smoothscroll" href="#about">Info</a></li>
-                  <li id="works"><a className="smoothscroll" href="#portfolio">
-                     <Pulse><span> Works</span></Pulse></a></li>
+                  <Pulse><li id="works"><a className="smoothscroll" href="#portfolio">
+                     <span> Works</span></a></li></Pulse>
                   <li><a className="smoothscroll" href="#resume">Resume</a></li>
                   <li><a className="smoothscroll" href="#contact">Contact</a></li>
                   <li><a className="smoothscroll" href="#other">Other</a></li>
-               </ul></FadeIn>
+               </ul></FlipInX>
 
             </nav>
 
@@ -48,20 +49,20 @@ class Header extends Component {
                <div className="banner-text">
                   <FadeIn><h1 className="responsive-headline">
                      <span className="headline-welcome">Welcome, </span>< br />
-                     <span className="header-visitor">{visitor}.</span></h1></FadeIn>
-                  <h2 className="responsive-headline">
-                     <FlipInX><span className="headline-emph">id:</span></FlipInX>
-                     <span className="header-info animated flipInX delay-2s"> {name}</span></h2>
-                  <h2 className="responsive-headline">
-                     <FlipInX><span className="headline-emph">href:</span></FlipInX>
-                     <span className="header-info animated flipInX delay-3s"> {city}</span> </h2>
-                  <h2 className="responsive-headline">
-                     <FlipInX><span className="headline-emph">title:</span></FlipInX>
-                     <span className="header-info animated flipInX delay-4s"> {occupation}</span>
+                     <span className="header-visitor">{visitor}</span></h1></FadeIn>
+                  <h2 className="responsive-headline animated flipInX delay-1s">
+                     <span className="headline-emph">id:</span>
+                     <span className="header-info"> {name}</span></h2>
+                  <h2 className="responsive-headline animated flipInX delay-2s">
+                     <span className="headline-emph">href:</span>
+                     <span className="header-info"> {city}</span> </h2>
+                  <h2 className="responsive-headline animated flipInX delay-3s">
+                     <span className="headline-emph">title:</span>
+                     <span className="header-info"> {occupation}</span>
                   </h2>
-                  <h3 className="responsive-headline">
-                  <FlipInX><span className="headline-emph">alt:</span></FlipInX>
-                     <span className="header-info animated flipInX delay-5s"> {description}.</span></h3>
+                  <h2 className="responsive-headline animated flipInX delay-4s">
+                  <span className="headline-emph">alt:</span>
+                     <span className="header-info"> {description}.</span></h2>
                   <hr />
                   <ul className="social">
                      {networks}
