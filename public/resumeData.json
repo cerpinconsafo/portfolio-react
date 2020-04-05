@@ -135,26 +135,20 @@
       {
         "title":"Safe Flight",
         "category":"One-stop platform for travelers looking to book a flight on an airline that is safe, secure and is not prone to malfunctions.",
-        "image":"safe-flight.jpg",
-        "url":"https://github.com/cerpinconsafo"
+        "image":"safe-flight.png",
+        "url":"https://floating-everglades-15450.herokuapp.com/"
       },
       {
         "title":"MeDo",
         "category":"A media to-do list",
-        "image":"medo.jpg",
-        "url":"https://github.com/cerpinconsafo"
+        "image":"medo.png",
+        "url":"https://mpaitgt.github.io/medo-frontend/"
       },
       {
         "title":"Art Gif Generator",
         "category":"Webapp utilizing Giphy API to showcase 'Internet Art' styles",
-        "image":"art-gif-gen.jpg",
-        "url":"https://github.com/cerpinconsafo"
-      },
-      {
-        "title":"SFC Delivery",
-        "category":"A SMS based convenience store delivery service",
-        "image":"sfc-delivery.jpg",
-        "url":"https://github.com/cerpinconsafo"
+        "image":"art-gif-gen.png",
+        "url":"https://cerpinconsafo.github.io/Art-Gif-Generator/"
       }
     ]
   },
