@@ -1,21 +1,22 @@
 {
   "main": {
-    "visitor": "Space Travelor",
+    "visitor": "Space Traveler.",
     "name":"Patrick Skolsky",
     "occupation":"[web developer, artist, designer, musician]",
-    "description":"I have an idea to fix this",
+    "description":"Cyberspace traveler, immersed in the arts and internet.",
     "image":"profilepic.png",
-    "bio":"I am a junior full-stack developer, with experience in the MERN stack.  My focus is primarily in front-end web design, bringing my art and design background to the web!",
+    "bio":"I am a junior full-stack developer, with experience in the MERN stack.  My focus is primarily on front-end web design, bringing my art and design background to the web! Besides web development, I am an artist and musician, always looking to be creative in as many outlets as possible.  Surrounding myself with other driven creative minds keeps me motivated and focused.",
     "contactmessage":"Please, Contact me using the form below.",
     "email": "pSkolsky74@gmail.com",
-    "phone": "phone number available on request",
+    "phone": "Phone available upon request",
     "address":{
       "street":"",
-      "city":"new brunswick",
-      "state":"NJ, USA",
-      "zip": "08850"
+      "city":"New Brunswick",
+      "state":"NJ",
+      "zip": "08902"
     },
-    "website": "www.patrickskolskyart.com",
+    "artweb": "www.patrickskolskyart.com",
+    "musicweb": "www.soundcloud.com/cavi-caligula",
     "resumedownload":"https://github.com/cerpinconsafo",
     "social":[
       {
@@ -48,79 +49,106 @@
         "school":"Mason Gross School of the Arts at Rutgers University",
         "degree":"Bachelors in Fine Art",
         "graduated":"May 2016",
-        "description":"Studio practice with concentrations in Painting and Printmaking.  Add more"
+        "description":"Full Encompassing and Immersing study of the Visual Arts.  Building on fundamentals in all fields, with a personal focus on Painting and Printmaking with a final thesis solo exhibition. Emphasis not only on a strong studio practice, but also the hisotrical and contemporary art culture.  Artist visits and lectures,  visits to working artist's studios, exhibitions, galleries and museums. "
       }
     ],
     "work":[
       {
-        "company":"Freelance",
-        "title":"title",
+        "company":"Self-Employed",
+        "title":"Freelance",
         "years":"February 2020 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Having recently finished my Full Stack WedDev Certificate, I have been further developing my skills with personal projects and freelance work."
       },
       {
         "company":"Coby Graphics",
         "title":"Lead Screen Printer",
         "years":"March 2016 - August 2019",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Operator of Manual/Automatic screen printing presses in garnment/apparel decoration. I ran the warehouse and production on my own, with direction and oversight of the business owners from a nearby location."
       }
     ],
     "skills":[
       {
-        "name":"Photoshop",
-        "level":"85%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"65%"
-      },
-      {
         "name":"HTML5",
-        "level":"75%"
+        "level":"85%",
+        "logo": "devicon-html5-plain"
       },
       {
-        "name":"CSS",
-        "level":"80%"
+        "name":"CSS3",
+        "level":"65%",
+        "logo": "devicon-css3-plain"
+      },
+      {
+        "name":"SASS",
+        "level":"65%",
+        "logo": "devicon-sass-plain"
+      },
+      {
+        "name":"JavaScript",
+        "level":"75%",
+        "logo": "devicon-javascript-plain"
+      },
+      {
+        "name":"jQuery",
+        "level":"80%",
+        "logo": "devicon-jquery-plain"
       },
       {
         "name":"React.js",
-        "level":"80%"
+        "level":"80%",
+        "logo": "devicon-react-plain"
       },
       {
         "name":"Git",
-        "level":"60%"
+        "level":"60%",
+        "logo": "devicon-git-plain"
       },
       {
         "name":"MongoDB",
-        "level":"65%"
+        "level":"65%",
+        "logo": "devicon-mongodb-plain"
+      }, 
+      {
+        "name": "MySQL",
+        "level": "65%",
+        "logo":"devicon-mysql-plain"
       }
+    ,
+    {
+      "name": "Node.js",
+      "level": "65%",
+      "logo":"devicon-nodejs-plain"
+    },
+    {
+      "name": "Express",
+      "level": "65%",
+      "logo":"devicon-express-original"
+    },
+    {
+      "name": "Heroku",
+      "level": "65%",
+      "logo":"devicon-heroku-plain"
+    }
     ]
   },
   "portfolio":{
     "projects": [
       {
         "title":"Safe Flight",
-        "category":"Oone-stop platform for travelers looking to book a flight on an airline that is safe, secure and is not prone to malfunctions.",
-        "image":"safe-flight.jpg",
-        "url":"https://github.com/cerpinconsafo"
+        "category":"One-stop platform for travelers looking to book a flight on an airline that is safe, secure and is not prone to malfunctions.",
+        "image":"safe-flight.png",
+        "url":"https://floating-everglades-15450.herokuapp.com/"
       },
       {
         "title":"MeDo",
         "category":"A media to-do list",
-        "image":"medo.jpg",
-        "url":"https://github.com/cerpinconsafo"
+        "image":"medo.png",
+        "url":"https://mpaitgt.github.io/medo-frontend/"
       },
       {
         "title":"Art Gif Generator",
         "category":"Webapp utilizing Giphy API to showcase 'Internet Art' styles",
-        "image":"art-gif-gen.jpg",
-        "url":"https://github.com/cerpinconsafo"
-      },
-      {
-        "title":"SFC Delivery",
-        "category":"A SMS based convenience store delivery service",
-        "image":"sfc-delivery.jpg",
-        "url":"https://github.com/cerpinconsafo"
+        "image":"art-gif-gen.png",
+        "url":"https://cerpinconsafo.github.io/Art-Gif-Generator/"
       }
     ]
   },
