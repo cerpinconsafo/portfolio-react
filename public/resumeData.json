@@ -12,7 +12,7 @@
     "address":{
       "street":"",
       "city":"New Brunswick",
-      "state":"NJ, USA",
+      "state":"NJ",
       "zip": "08902"
     },
     "artweb": "www.patrickskolskyart.com",
@@ -68,55 +68,65 @@
     ],
     "skills":[
       {
-        "name":"Photoshop",
-        "level":"85%",
-        "logo": ""
-      },
-      {
-        "name":"Illustrator",
-        "level":"65%",
-        "logo": ""
-      },
-      {
         "name":"HTML5",
-        "level":"75%",
-        "logo": ""
+        "level":"85%",
+        "logo": "devicon-html5-plain"
       },
       {
-        "name":"CSS",
+        "name":"CSS3",
+        "level":"65%",
+        "logo": "devicon-css3-plain"
+      },
+      {
+        "name":"SASS",
+        "level":"65%",
+        "logo": "devicon-sass-plain"
+      },
+      {
+        "name":"JavaScript",
+        "level":"75%",
+        "logo": "devicon-javascript-plain"
+      },
+      {
+        "name":"jQuery",
         "level":"80%",
-        "logo": ""
+        "logo": "devicon-jquery-plain"
       },
       {
         "name":"React.js",
         "level":"80%",
-        "logo": ""
+        "logo": "devicon-react-plain"
       },
       {
         "name":"Git",
         "level":"60%",
-        "logo": ""
+        "logo": "devicon-git-plain"
       },
       {
         "name":"MongoDB",
         "level":"65%",
-        "logo": ""
+        "logo": "devicon-mongodb-plain"
       }, 
       {
         "name": "MySQL",
         "level": "65%",
-        "logo":""
+        "logo":"devicon-mysql-plain"
       }
     ,
     {
       "name": "Node.js",
       "level": "65%",
-      "logo":""
+      "logo":"devicon-nodejs-plain"
     },
     {
       "name": "Express",
       "level": "65%",
-      "logo":""
+      "logo":"devicon-express-original"
+    },
+    {
+      "name": "Heroku",
+      "level": "65%",
+      "logo":"devicon-heroku-plain"
     }
     ]
   },

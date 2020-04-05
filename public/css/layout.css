@@ -339,6 +339,40 @@ ul#nav li a:hover { color: rgba(102, 230, 170, 0.911) }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
+
+/*----------------------------------------------*/
+/*	Skill Icons
+/* (icons thanks to http://konpa.github.io/devicon/) */
+/*----------------------------------------------*/
+
+
+.skill-icon-section {
+	width: 95%;
+	float: left;
+	padding: 0;
+	text-align: left;
+}
+
+.icon {
+   font-size: 64px;
+   display: inline-block;
+   color: rgb(17, 176, 123);
+   padding-left: 25px;
+
+   
+
+}
+
+.icon-text{
+   font-size: 13px;
+   text-align: center;
+   color: grey;
+   
+     
+
+
+}
+
 /*
 .git {
   	-moz-animation: git 4s ease;
