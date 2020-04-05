@@ -88,6 +88,11 @@ header .banner-text hr {
    
 }
 
+.header-info {
+   color: rgba(255, 255, 255, 0.85);
+   text-shadow: rgba(32, 53, 68, 0.4) 0px 1px 3px;
+}
+
 /* header social links */
 header .social {
    margin: 24px 0;
