@@ -209,6 +209,7 @@ ul#nav li a:hover { color: rgba(102, 230, 170, 0.911) }
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
+   width: 100%;
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -349,7 +350,25 @@ ul#nav li a:hover { color: rgba(102, 230, 170, 0.911) }
 /*	Skill Icons
 /* (icons thanks to http://konpa.github.io/devicon/) */
 /*----------------------------------------------*/
+#skills{
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
 
+}
+
+#skills h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+#skills h1 span {
+   color: #fff;
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
 
 .skill-icon-section {
 	width: 95%;
