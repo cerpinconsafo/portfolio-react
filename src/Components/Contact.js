@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 //currently, i have the side widget commented out, fo either further revision, or complete removal.
 //i dont really use twitter, and the location at the bottom of the page seems pretty out there and not in an intuative location of the page
-
+//the contact submit button is not working also
 class Contact extends Component {
   render() {
 

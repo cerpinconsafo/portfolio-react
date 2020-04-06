@@ -37,7 +37,7 @@ class Header extends Component {
                   <li><a className="smoothscroll" href="#about">Info</a></li>
                   <Pulse><li id="works"><a className="smoothscroll" href="#portfolio">
                      <span> Projects</span></a></li></Pulse>
-                  <li><a className="smoothscroll" href="#resume">Resume</a></li>
+                  <li><a className="smoothscroll" href="#skills">Resume</a></li>
                   <li><a className="smoothscroll" href="#contact">Contact</a></li>
                   <li><a className="smoothscroll" href="#other">Other</a></li>
                </ul></FlipInX>

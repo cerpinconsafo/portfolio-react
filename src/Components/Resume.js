@@ -26,9 +26,29 @@ class Resume extends Component {
       })
     }
 
-    return (
-      <section id="resume">
+    return (<div>
+      <section id="skills">
 
+        <div className="row skill">
+
+          <div className="three columns header-col">
+            <h1><span>Skills</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+
+            <p>{skillmessage}
+            </p>
+
+            <div className="skill-icon-section">
+
+              {skills}
+
+            </div>
+          </div>
+        </div>
+        </section>
+        <section id="resume">
         <div className="row education">
           <div className="three columns header-col">
             <h1><span>Education</span></h1>
@@ -57,25 +77,9 @@ class Resume extends Component {
 
 
 
-        <div className="row skill">
 
-          <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-          </div>
-
-          <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-            <div className="skill-icon-section">
-
-              {skills}
-
-            </div>
-          </div>
-        </div>
       </section>
+      </div>
     );
   }
 }
