@@ -17,7 +17,7 @@ class Header extends Component {
          var name = this.props.data.name;
          var occupation = this.props.data.occupation;
          var description = this.props.data.description;
-         var city = this.props.data.address.city;
+         var location = this.props.data.address.city + ", " + this.props.data.address.state;
          var networks = this.props.data.social.map(function (network) {
             return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
          })
@@ -36,7 +36,7 @@ class Header extends Component {
                   <li className="current"><a className="smoothscroll" href="#home">Landing</a></li>
                   <li><a className="smoothscroll" href="#about">Info</a></li>
                   <Pulse><li id="works"><a className="smoothscroll" href="#portfolio">
-                     <span> Works</span></a></li></Pulse>
+                     <span> Projects</span></a></li></Pulse>
                   <li><a className="smoothscroll" href="#resume">Resume</a></li>
                   <li><a className="smoothscroll" href="#contact">Contact</a></li>
                   <li><a className="smoothscroll" href="#other">Other</a></li>
@@ -55,7 +55,7 @@ class Header extends Component {
                      <span className="header-info"> {name}</span></h2>
                   <h2 className="responsive-headline animated flipInX delay-2s">
                      <span className="headline-emph">href:</span>
-                     <span className="header-info"> {city}</span> </h2>
+                     <span className="header-info"> {location}</span> </h2>
                   <h2 className="responsive-headline animated flipInX delay-3s">
                      <span className="headline-emph">title:</span>
                      <span className="header-info"> {occupation}</span>

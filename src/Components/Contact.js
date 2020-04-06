@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+//currently, i have the side widget commented out, fo either further revision, or complete removal.
+//i dont really use twitter, and the location at the bottom of the page seems pretty out there and not in an intuative location of the page
+
 class Contact extends Component {
   render() {
 
@@ -87,7 +90,7 @@ class Contact extends Component {
 					   </p>
 				   </div>
 
-               <div className="widget widget_tweets">
+               {/* <div className="widget widget_tweets">
                   <h4 className="widget-title">I don't tweet, fix this</h4>
                   <ul id="twitter">
                      <li>
@@ -107,7 +110,7 @@ class Contact extends Component {
                         <b><a href="#">3 Days Ago</a></b>
                      </li>
                   </ul>
-		         </div>
+		         </div> */}
             </aside>
       </div>
    </section>
