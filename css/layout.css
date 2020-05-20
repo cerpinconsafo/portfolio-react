@@ -85,12 +85,14 @@ header .banner-text hr {
 .headline-emph {
    color:rgba(120, 244, 253, 0.555);
    text-shadow: rgba(32, 53, 68, 0.4) 1px 1px 1px;
+   font-size: 23px;
    
 }
 
 .header-info {
    color: rgba(255, 255, 255, 0.85);
    text-shadow: rgba(32, 53, 68, 0.4) 0px 1px 3px;
+   font-size: 26px;
 }
 
 /* header social links */
