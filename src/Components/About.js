@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import DownloadPDF from './DownloadPDF';
+
+import "react-pdf/dist/Page/AnnotationLayer.css";
 
 class About extends Component {
   render() {
@@ -46,7 +49,8 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <DownloadPDF/>
+                     
                   </p>
                </div>
             </div>
