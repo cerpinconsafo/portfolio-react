@@ -16,8 +16,8 @@ class About extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var email = this.props.data.email;
-      var artweb = this.props.data.artweb;
-      var musicweb = this.props.data.musicweb;
+      // var artweb = this.props.data.artweb;
+      // var musicweb = this.props.data.musicweb;
     }
 
     return (
@@ -41,8 +41,8 @@ class About extends Component {
                      <span>{email}</span>
 					   </p>
                   <h2>Other Work</h2>
-                     <span><a href={artweb}> Art</a></span><br />
-                     <span><a href={musicweb}> Music</a></span><br />
+                     <span><a target="_blank" href="http://www.patrickskolskyart.com" > Art</a></span><br />
+                     <span><a target="_blank" href="http://www.soundcloud.com/cavi-caligula" > Music</a></span><br />
                </div>
                <div className="columns download">
                   <p>
