@@ -3,12 +3,11 @@
     "visitor": "Space Traveler.",
     "name":"Patrick Skolsky",
     "occupation":"[web developer, artist, designer, musician]",
-    "description":"Cyberspace traveler, immersed in the arts and internet.",
+    "description":"Cyberspace traveler, immersed in the arts and internet",
     "image":"profilepic.png",
     "bio":"A Junior Full-Stack Web Developer, with experience in the MERN stack. Primary focus on front-end web design, bringing my art and design background to the web! In addition to web development, I am an artist and musician, always looking to be creative in as many outlets as possible. Eager to leverage skills in the future as part of a fast-paced, quality-driven team in order to build better, innovative, and memorable experiences on the web.",
     "contactmessage":"Please, Contact me using the form below.",
     "email": "pSkolsky74@gmail.com",
-    "phone": "Phone available upon request",
     "address":{
       "street":"",
       "city":"New Brunswick",
@@ -43,7 +42,7 @@
         "school":"Rutgers University Coding Bootcamp",
         "degree":"Certificate in Web Development",
         "graduated":"February 2020",
-        "description":"Full Stack Web Development with a focus on MERN stack. Add more"
+        "description":"Full Stack Web Development with a focus on MERN stack. A challenging curriculum covering a vast array of computer programming tutorials such as HTML5, CSS3, JavaScript, jQuery, Node.js, Responsive Design, Heroku, Git, User Authentication, React.js, MySQL, and MongoDB."
       },
       {
         "school":"Mason Gross School of the Arts at Rutgers University",
@@ -83,6 +82,12 @@
         "logo": "devicon-sass-plain"
       },
       {
+        "name":"Bootstrap",
+        "level":"null",
+        "logo": "devicon-bootstrap-plain"
+      },
+      {
+      
         "name":"JavaScript",
         "level":"75%",
         "logo": "devicon-javascript-plain"
@@ -101,6 +106,11 @@
         "name":"Git",
         "level":"60%",
         "logo": "devicon-git-plain"
+      },
+      {
+        "name":"GitHub",
+        "level":"60%",
+        "logo": "devicon-github-plain"
       },
       {
         "name":"MongoDB",
@@ -127,6 +137,16 @@
       "name": "Heroku",
       "level": "65%",
       "logo":"devicon-heroku-plain"
+    },
+    {
+      "name":"Photoshop",
+      "level":"65%",
+      "logo": "devicon-photoshop-plain"
+    },
+    {
+      "name": "Illustrator",
+      "level": "null",
+      "logo": "devicon-illustrator-plain"
     }
     ]
   },

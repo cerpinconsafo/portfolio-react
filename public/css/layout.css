@@ -373,7 +373,7 @@ ul#nav li a:hover { color: rgba(102, 230, 170, 0.911) }
 }
 
 .skill-icon-section {
-	width: 95%;
+	width: 100%;
 	float: left;
 	padding: 0;
 	text-align: left;
@@ -383,7 +383,7 @@ ul#nav li a:hover { color: rgba(102, 230, 170, 0.911) }
    font-size: 64px;
    display: inline-block;
    color: rgb(17, 176, 123);
-   padding-left: 25px;
+   padding: 10px;
 
    
 
