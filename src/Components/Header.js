@@ -6,8 +6,7 @@ const LightIn = styled.div`animation: 1s ${keyframes`${lightSpeedIn}`} `;
 const FadeInRight = styled.span`animations: 1s ${keyframes`${fadeInRight}`}`;
 const FadeIn = styled.div`animation: 3s ${keyframes`${fadeIn}`} `;
 const Pulse = styled.span`animation: 3s ${keyframes`${pulse}`}`;
-const FlipInX = styled.span
-   `animation: 4s ${keyframes`${flipInX}`}`;
+const FlipInX = styled.span`animation: 4s ${keyframes`${flipInX}`}`;
 
 class Header extends Component {
    render() {
@@ -35,8 +34,8 @@ class Header extends Component {
                <FlipInX><ul id="nav" className="nav">
                   <li className="current"><a className="smoothscroll" href="#home">Landing</a></li>
                   <li><a className="smoothscroll" href="#about">Info</a></li>
-                  <Pulse><li id="works"><a className="smoothscroll" href="#portfolio">
-                     <span> Projects</span></a></li></Pulse>
+                  <li id="works"><a className="smoothscroll animated pulse infinite" href="#portfolio">
+                     <span> Projects</span></a></li>
                   <li><a className="smoothscroll" href="#skills">Resume</a></li>
                   <li><a className="smoothscroll" href="#contact">Contact</a></li>
                   <li><a className="smoothscroll" href="#other">Other</a></li>
@@ -64,7 +63,7 @@ class Header extends Component {
                   <span className="headline-emph">alt:</span>
                      <span className="header-info"> {description}</span></h2>
                   <hr />
-                  <ul className="social">
+                  <ul className="social animated flipInX delay-4s">
                      {networks}
                   </ul>
                </div>
